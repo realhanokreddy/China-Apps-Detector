@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/homedragon"
+    tools:context=".MainActivity">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Click on 'SCAN NOW' to find installed China Apps in your System"
+        android:textSize="15sp"
+        android:padding="15dp"
+        android:textColor="#000"
+        android:layout_above="@+id/scannow"
+        android:layout_centerHorizontal="true"/>
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="SCAN NOW"
+        android:textColor="#fff"
+        android:id="@+id/scannow"
+        android:background="@drawable/circular_button"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="100dp"/>
+
+
+
+
+</RelativeLayout>
